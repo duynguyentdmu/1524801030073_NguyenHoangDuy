@@ -41,7 +41,7 @@
                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="change-password.php">ĐỔI MẬT KHẨU</a></li>
                                 </ul>
                             </li>
-                            <li><a href="issued-books.php">QUẢN LÝ MƯỢN SÁCH</a></li>
+                            <li><a href="issued-books.php">THỐNG KÊ MƯỢN SÁCH</a></li>
                           
 
                         </ul>

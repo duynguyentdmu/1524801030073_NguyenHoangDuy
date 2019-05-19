@@ -20,7 +20,7 @@ $query->bindParam(':fine',$fine,PDO::PARAM_STR);
 $query->bindParam(':rstatus',$rstatus,PDO::PARAM_STR);
 $query->execute();
 
-$_SESSION['msg']="Book Returned successfully";
+$_SESSION['msg']="Sách đã hoàn trả lại thành công";
 header('location:manage-issued-books.php');
 
 
@@ -148,7 +148,7 @@ foreach($results as $result)
 <label>Ngày trả lại sách: </label>
 <?php if($result->ReturnDate=="")
                                             {
-                                                echo htmlentities("Not Return Yet");
+                                                echo htmlentities("Chưa hoàn trả");
                                             } else {
 
 
